@@ -44,12 +44,12 @@ The following table shows Azure Database Migration Service support for offline m
 | ------------- | ------------- |:-------------:|:-------------:|
 | **Azure SQL DB** | SQL Server | ✔ | GA |
 |   | RDS SQL | X |  |
-|   | Oracle | X |  |
+|   | Oracle | ✔ | Use [SSMA](https://aka.ms/get-ssma-oracle) |
 | **Azure SQL DB MI** | SQL Server | ✔ | GA |
 |   | RDS SQL | X |  |
-|   | Oracle | X |   |
+|   | Oracle | ✔ |  Use [SSMA](https://aka.ms/get-ssma-oracle) |
 | **Azure SQL VM** | SQL Server | ✔ | GA |
-|   | Oracle | X |   |
+|   | Oracle | ✔ | Use [SSMA](https://aka.ms/get-ssma-oracle)  |
 | **Azure Cosmos DB** | MongoDB | ✔ | GA |
 | **Azure DB for MySQL** | MySQL | X |   |
 |   | RDS MySQL | X |   |
@@ -69,7 +69,7 @@ The following table shows Azure Database Migration Service support for online mi
 |   | Oracle | X |  |
 | **Azure SQL DB MI** | SQL Server | ✔ | GA |
 |   | RDS SQL | ✔ | GA |
-|   | Oracle | ✔ | Private preview |
+|   | Oracle | X |   |
 | **Azure SQL VM** | SQL Server | X |   |
 |   | Oracle  | X |  |
 | **Azure Cosmos DB** | MongoDB | ✔ | GA |
